@@ -76,7 +76,7 @@ Quiz();
 
 //正解、不正解のロジック作り
 const process=(e)=>{
-  if(summarize[summarizeIndex].correct===e.target.textContent){
+  if(summarize[summarizeIndex].correct==e.target.textContent){
     window.alert("正解！");
     score++;
   }else{
